@@ -1,21 +1,46 @@
-/* .appContainer {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  min-height: 100vh;
-  padding: 2rem;
-  background-color: #f5f5f5;
-} */
+:root {
+  --light-bg: linear-gradient(to right, #e0f7fa, #ffffff);
+  --dark-bg: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  --font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
+body {
+  margin: 0;
+  font-family: var(--font-family);
+}
 
-/* centers everything vertically and horizontally */
 .app-container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  padding: 2rem;
   min-height: 100vh;
-  gap: 2rem;
-  background-color: #f2f2f2;
+  background: var(--light-bg);
+  transition: all 0.3s ease;
+}
+
+.app-container.dark {
+  background: var(--dark-bg);
+  color: white;
+}
+
+.toggle-btn {
+  background-color: #1976d2;
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  margin-bottom: 1rem;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.toggle-btn:hover {
+  background-color: #1565c0;
+}
+
+h2 {
+  margin-bottom: 10px;
+  font-size: 2rem;
 }
