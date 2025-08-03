@@ -1,0 +1,36 @@
+/* .InfoBox{
+    text-align: center;
+}
+.cardContainer{
+    display: flex;
+    justify-content: center;
+} */
+
+/* 
+.InfoBox {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.cardContainer {
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+} */
+
+/* 
+.InfoBox {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.cardContainer {
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+} */
+
+.info-box {
+  display: flex;
+  justify-content: center;
+}
+
+
